@@ -11,16 +11,16 @@ owner:
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          github@werkkreis.org
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter:        https://twitter.com/consolacao2
+  facebook:       https://www.facebook.com/Harald.Haesler?ref=profile
+  github:         https://www.facebook.com/Harald.Haesler?ref=profile
   stackexchange:  
   linkedin:       
   instagram:      
   flickr:         
-  tumblr:         
+  tumblr:        http://www.tumblr.com/blog/haesler 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   
+  google_plus:   https://plus.google.com/105817282553018339451?rel=author
 
 # Background image to be tiled on all pages
 background: witewall_3.png
