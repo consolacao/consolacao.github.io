@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: Maipost
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2014-05-30
 tags: [sample post]
