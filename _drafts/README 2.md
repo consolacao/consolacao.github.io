@@ -1,4 +1,17 @@
-www.tajine.de
+---
+layout: post
+title: www.tajine.de
+description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+modified: 2014-05-31
+tags: [baustelle]
+image:
+  feature: abstract-1.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+comments: true
+share: true
+---
+
 =========
 [![Ali Baba Tajine - Titelbild](https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfp1/t31.0-8/1913220_703511143042637_486624154_o.jpg)](https://www.facebook.com/pages/Ali-Baba-Tajine/162735787120178?ref=hl)
 =======
