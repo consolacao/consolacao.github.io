@@ -3,6 +3,10 @@ layout: post
 title: "Facebook Album Embed"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [sample post, facebook, embeds]
+image:
+  feature: abstract-1.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
 share: true
 ---
