@@ -47,14 +47,14 @@ highlighter: pygments
 markdown:    kramdown
 
 ftp_host: 'ftp.kochtopfkurs.de.server1367-han.de-nserver.de'
-ftp_dir: '/www.kochtopfkurs.de/_site'
-ftp_passive: false
+ftp_dir: '/www.kochtopfkurs.de/jekyll'
+ftp_passive: true
 ftp_port: 21                  # default 21
 ftp_username: 'kocqnbxy'     # default read from stdin
 ftp_password: 'abt54321' # default read from stdin
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /:title/
 
 gems:
 - jekyll-mentions
