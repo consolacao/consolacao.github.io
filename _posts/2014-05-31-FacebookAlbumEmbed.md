@@ -6,7 +6,7 @@ tags: [sample post, facebook, embeds]
 image:
   feature: abstract-1.jpg
   credit: Ali Baba Tajine
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  creditlink: http://www.tajine.de
 comments: true
 share: true
 ---
