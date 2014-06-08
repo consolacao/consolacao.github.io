@@ -20,7 +20,7 @@ task :new_post, :title do |t, args|
   if args.title
     title = args.title
   else
-    title = get_stdin("Enter a title for your post: ")
+    title = get_stdin("Der Titel fuer den neuen Post: ")
   end
   filename = "#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
@@ -32,6 +32,7 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "description: "
     post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "tags: [#{tags}]"
     post.puts "image:"
@@ -63,6 +64,7 @@ task :new_page, :title do |t, args|
     page.puts "layout: page"
     page.puts "permalink: /#{title.to_url}/"
     page.puts "title: \"#{title}\""
+    page.puts "description: "
     page.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     page.puts "tags: [#{tags}]"
     page.puts "image:"
