@@ -9,3 +9,7 @@ gem 'activesupport'
 gem 'stringex'
 gem 'coveralls', require: false
 gem 'json'
+gem 'jekyll-mentions'
+gem 'jemoji'
+gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'

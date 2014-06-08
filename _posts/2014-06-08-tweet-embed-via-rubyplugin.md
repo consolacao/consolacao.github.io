@@ -14,3 +14,4 @@ share:
 Plugins gehe nicht auf gh-pages
 
 {% tweet https://twitter.com/zellpat/status/472047605414100992 %}
+{% tweet https://twitter.com/DEVOPS_BORAT/status/159849628819402752 align='right' width='350' %}

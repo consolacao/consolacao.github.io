@@ -10,10 +10,6 @@
     </url>
     
     <url>
-        <loc>http://consolacao.github.io/lageplan/</loc>
-    </url>
-    
-    <url>
         <loc>http://consolacao.github.io/about/</loc>
     </url>
     
@@ -23,6 +19,10 @@
     
     <url>
         <loc>http://consolacao.github.io/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://consolacao.github.io/lageplan/</loc>
     </url>
     
     <url>
@@ -46,6 +46,14 @@
     </url>
     
 
+    
+    <url>
+        <loc>http://consolacao.github.io/twitter-card/</loc>
+    </url>
+    
+    <url>
+        <loc>http://consolacao.github.io/tweet-embed-via-rubyplugin/</loc>
+    </url>
     
     <url>
         <loc>http://consolacao.github.io/Referenzen/</loc>

@@ -15,6 +15,7 @@
 <meta name="twitter:title" content="Theme Setup">
 <meta name="twitter:description" content="Instructions on how to install and customize the modern Jekyll theme HPSTR.">
 <meta name="twitter:creator" content="@consolacao2">
+<meta name="twitter:domain" content="http://consolacao.github.io">
 <meta property="fb:app_id" content="287072908542" /> 
 <meta property="og:locale" content="de_DE">
 <meta property="og:type" content="article">
@@ -198,7 +199,8 @@
 <span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span>    <span class="l-Scalar-Plain">kramdown</span>
 
 <span class="c1"># Amount of posts to show on home page</span>
-<span class="l-Scalar-Plain">paginate</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">5</span></code></pre></div>
+<span class="l-Scalar-Plain">paginate</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">5</span>
+</code></pre></div>
 
 <hr />
 
@@ -229,7 +231,8 @@
 ├── about.md  <span class="c"># about page</span>
 ├── index.html  <span class="c"># home page</span>
 ├── posts.html  <span class="c"># all posts</span>
-└── tags.html  <span class="c"># all posts grouped by tag</span></code></pre></div>
+└── tags.html  <span class="c"># all posts grouped by tag</span>
+</code></pre></div>
 
 <hr />
 
@@ -243,13 +246,15 @@
 
 <p>Create a <a href="http://disqus.com">Disqus</a> account and change <code>disqus_shortname</code> in <code>_config.yml</code> to the Disqus <em>shortname</em> you just setup. To enable commenting on a post, add the following to its front matter:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">comments</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">comments</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+</code></pre></div>
 
 <h4 id="social-share-links">Social Share Links</h4>
 
 <p>To enable Facebook, Twitter, and Google+ share links on a post or page, add the following to its front matter:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">share</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">share</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+</code></pre></div>
 
 <h4 id="ownerauthor-information">Owner/Author Information</h4>
 
@@ -271,14 +276,16 @@
     <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/other-page/</span>
   <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">External Link</span>
     <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span>
-    <span class="l-Scalar-Plain">external</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+    <span class="l-Scalar-Plain">external</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span> 
+</code></pre></div>
 
 <h4 id="background-images">Background Images</h4>
 
 <p>To utilize this “feature” just add the following YAML to a post’s front matter. (<a href="http://mmistakes.github.io/hpstr-jekyll-theme/background-image/">View demo</a>)</p>
 
 <div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">background</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">filename.png</span></code></pre></div>
+  <span class="l-Scalar-Plain">background</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">filename.png</span>
+</code></pre></div>
 
 <p>This little bit of YAML makes the assumption that your background image asset is in the <code>/images</code> folder. If you place it somewhere else or are hot linking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.</p>
 
@@ -302,7 +309,8 @@
 
 Enter a title <span class="k">for </span>your post: My Awesome Post
 Enter tags to classify your post <span class="o">(</span>comma separated<span class="o">)</span>: web development, code
-Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
+Creating new post: _posts/2014-02-10-my-awesome-post.md
+</code></pre></div>
 
 <p>There are a few configuration variables that can be changed in <code>Rakefile.rb</code>. By default posts and pages will be created in MarkDown using the <code>.md</code> extension.</p>
 
@@ -314,14 +322,16 @@ Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
 
 <div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
   <span class="l-Scalar-Plain">feature</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">feature-image-filename.jpg</span>
-  <span class="l-Scalar-Plain">thumb</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">thumbnail-image.jpg</span> <span class="c1">#keep it square 200x200 px is good</span></code></pre></div>
+  <span class="l-Scalar-Plain">thumb</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">thumbnail-image.jpg</span> <span class="c1">#keep it square 200x200 px is good</span>
+</code></pre></div>
 
 <p>If you want to apply attribution to a feature image use the following YAML front matter on posts or pages. Image credits appear directly below the feature image with a link back to the original source.</p>
 
 <div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
   <span class="l-Scalar-Plain">feature</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">feature-image-filename.jpg</span>
   <span class="l-Scalar-Plain">credit</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Michael Rose</span> <span class="c1">#name of the person or site you want to credit</span>
-  <span class="l-Scalar-Plain">creditlink</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span> <span class="c1">#url to their site or licensing</span></code></pre></div>
+  <span class="l-Scalar-Plain">creditlink</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span> <span class="c1">#url to their site or licensing</span>
+</code></pre></div>
 
 <h4 id="postpage-thumbnails-for-og-and-twitter-cards">Post/Page Thumbnails for OG and Twitter Cards</h4>
 
@@ -337,7 +347,8 @@ Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
 
 <p>Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the <code>&lt;iframe&gt;</code> tags and remove <code>allowfullscreen</code>. Example below:</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">&quot;560&quot;</span> <span class="na">height=</span><span class="s">&quot;315&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot;</span> <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span></code></pre></div>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">&quot;560&quot;</span> <span class="na">height=</span><span class="s">&quot;315&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot;</span> <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+</code></pre></div>
 
 <h4 id="twitter-cards">Twitter Cards</h4>
 
@@ -353,7 +364,8 @@ Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
 
 <p>If you want to easily skin the themes’ colors and fonts, take a look at <code>variables.less</code> in <code>assets/less/</code> and make the necessary changes to the color and font variables. To make development easier I setup a Grunt build script to compile/minify the LESS files into <code>main.min.css</code> and lint/concatenate/minify all scripts into <code>scripts.min.js</code>. <a href="http://nodejs.org/">Install Node.js</a>, then <a href="http://gruntjs.com/getting-started">install Grunt</a>, and then install the dependencies for the theme contained in <code>package.json</code>:</p>
 
-<div class="highlight"><pre><code class="bash">npm install</code></pre></div>
+<div class="highlight"><pre><code class="bash">npm install
+</code></pre></div>
 
 <p>From the theme’s root, use <code>grunt</code> to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the <code>images/</code> folder. You can also use <code>grunt watch</code> in combination with <code>jekyll build --watch</code> to watch for updates to your LESS and JS files that Grunt will then automatically re-build as you write your code which will in turn auto-generate your Jekyll site when developing locally.</p>
 
@@ -379,10 +391,7 @@ Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
       <p>Used to generate absolute urls in <code>sitemap.xml</code>, <code>feed.xml</code>, and for canonical urls in <code>head.html</code>. Don’t include a trailing <code>/</code> in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you’re using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p>If you’re using GitHub Pages to host your site be aware that plugins are disabled. So you’ll need to build your site locally and then manually deploy if you want to use this sweet plugin.
-[google]: http://www.google.com  “Google it!”
-[wiki]: http://wikipedia.org  “Online Encyclopedia”
-[id]: url  “tooltip” <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>If you’re using GitHub Pages to host your site be aware that plugins are disabled. So you’ll need to build your site locally and then manually deploy if you want to use this sweet plugin. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -404,7 +413,16 @@ Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2014 Harald Haesler. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
+    <a href="https://twitter.com/intent/tweet?screen_name=consolacao2&text=Hallo" class="twitter-mention-button" data-lang="de" data-size="large" data-related="consolacao2">Tweet to @consolacao2</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<a href="https://twitter.com/consolacao2" class="twitter-follow-button" data-show-count="false" data-lang="de" data-size="large">@consolacao2 folgen</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<a href="https://twitter.com/intent/tweet?button_hashtag=AliBabaTajine&text=Ali%20Baba%20Tajine%20Hashtag" class="twitter-hashtag-button" data-lang="de" data-size="large" data-related="consolacao2" data-url="http://www.tajine.de" data-dnt="true">Tweet #AliBabaTajine</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<span>&copy; 2014 Harald Haesler. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 

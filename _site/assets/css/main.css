@@ -4283,7 +4283,7 @@ body {
 .footer-wrapper {
   margin: 2em auto;
   color: #555555;
-  text-align: center;
+  text-align: left;
   *zoom: 1;
 }
 
