@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://consolacao.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://consolacao.github.io" />
-<updated>2014-06-08T08:45:17+00:00</updated>
+<updated>2014-06-08T08:57:33+00:00</updated>
 <id>http://consolacao.github.io/</id>
 <author>
   <name>Harald Haesler</name>
@@ -27,16 +27,16 @@
   </author>
   <content type="html">&lt;p&gt;[Google][google] is a popular search engine and [Wikipedia][wiki] an
 online encyclopedia.
-[google]: http://www.google.com  “Google it!”
-[wiki]: http://wikipedia.org  “Online Encyclopedia”
-[id]: url  “tooltip”&lt;/p&gt;
+	[google]: http://www.google.com  “Google it!”
+	[wiki]: http://wikipedia.org  “Online Encyclopedia”
+	[id]: url  “tooltip”&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/Referenzen/&quot;&gt;Referenzierung&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on June 08, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
-  <title type="html"><![CDATA[Snippets]]></title>
+  <title type="html"><![CDATA[Gist embed]]></title>
  <link rel="alternate" type="text/html" href="http://consolacao.github.io/Gist/" />
   <id>http://consolacao.github.io/Gist</id>
   <updated>2014-06-08T00:00:00-00:00</updated>
@@ -49,8 +49,12 @@ online encyclopedia.
   </author>
   <content type="html">&lt;script src=&quot;https://gist.github.com/consolacao/edf261ea56d01f432a21.js&quot;&gt; &lt;/script&gt;
 
+&lt;pre&gt;&lt;code&gt;[google]: http://www.google.com  &quot;Google it!&quot;
+[wiki]: http://wikipedia.org  &quot;Online Encyclopedia&quot;
+[id]: url  &quot;tooltip&quot;
+&lt;/code&gt;&lt;/pre&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/Gist/&quot;&gt;Snippets&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on June 08, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/Gist/&quot;&gt;Gist embed&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on June 08, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -101,9 +105,9 @@ online encyclopedia.
 
 &lt;p&gt;Dazu passt gut:
 Basmatireis und knackiger Bataviasalat.
-[google]: http://www.google.com  “Google it!”
-[wiki]: http://wikipedia.org  “Online Encyclopedia”
-[id]: url  “tooltip”&lt;/p&gt;
+	[google]: http://www.google.com  “Google it!”
+	[wiki]: http://wikipedia.org  “Online Encyclopedia”
+	[id]: url  “tooltip”&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/DeepVegan/&quot;&gt;Deep Vegan&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on June 03, 2014.&lt;/p&gt;</content>
 </entry>
@@ -129,9 +133,9 @@ Basmatireis und knackiger Bataviasalat.
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;560&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;315&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;//www.youtube.com/embed/SU3kYxJmWuQ&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;https://www.youtube.com/watch?v=xoo739iYPMk
-[google]: http://www.google.com  “Google it!”
-[wiki]: http://wikipedia.org  “Online Encyclopedia”
-[id]: url  “tooltip”&lt;/p&gt;
+	[google]: http://www.google.com  “Google it!”
+	[wiki]: http://wikipedia.org  “Online Encyclopedia”
+	[id]: url  “tooltip”&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/Video/&quot;&gt;Tajinerezept&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on May 31, 2014.&lt;/p&gt;</content>
 </entry>
@@ -250,6 +254,10 @@ Basmatireis und knackiger Bataviasalat.
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;[google]: http://www.google.com  &quot;Google it!&quot;
+[wiki]: http://wikipedia.org  &quot;Online Encyclopedia&quot;
+[id]: url  &quot;tooltip&quot;
+&lt;/code&gt;&lt;/pre&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/Snippets/&quot;&gt;Snippets&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on May 31, 2014.&lt;/p&gt;</content>
 </entry>
@@ -271,6 +279,10 @@ Basmatireis und knackiger Bataviasalat.
 
 &lt;div class=&quot;fb-post&quot; data-href=&quot;https://www.facebook.com/media/set/?set=a.472070510636.380882.470753700636&amp;amp;type=1&quot; data-width=&quot;466&quot;&gt;&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/media/set/?set=a.472070510636.380882.470753700636&amp;amp;type=1&quot;&gt;Beitrag&lt;/a&gt; von &lt;a href=&quot;https://www.facebook.com/Harald.Haesler&quot;&gt;Harald Haesler&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
 
+&lt;pre&gt;&lt;code&gt;[google]: http://www.google.com  &quot;Google it!&quot;
+[wiki]: http://wikipedia.org  &quot;Online Encyclopedia&quot;
+[id]: url  &quot;tooltip&quot;
+&lt;/code&gt;&lt;/pre&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/FacebookAlbumEmbed/&quot;&gt;Facebook Album Embed&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on May 31, 2014.&lt;/p&gt;</content>
 </entry>
@@ -342,9 +354,9 @@ But necessary for imaging and concrete visualization.&lt;/p&gt;
 #### Copyright und Lizenz&lt;/p&gt;
 
 &lt;p&gt;Stand: 31. Mai 2014
-[google]: http://www.google.com  “Google it!”
-[wiki]: http://wikipedia.org  “Online Encyclopedia”
-[id]: url  “tooltip”&lt;/p&gt;
+	[google]: http://www.google.com  “Google it!”
+	[wiki]: http://wikipedia.org  “Online Encyclopedia”
+	[id]: url  “tooltip”&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://consolacao.github.io/AliBabaTajine/&quot;&gt;www.tajine.de&lt;/a&gt; was originally published by Harald Haesler at &lt;a href=&quot;http://consolacao.github.io&quot;&gt;aia&lt;/a&gt; on May 31, 2014.&lt;/p&gt;</content>
 </entry>
