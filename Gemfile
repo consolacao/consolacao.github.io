@@ -8,3 +8,4 @@ gem 'thor'
 gem 'activesupport'
 gem 'stringex'
 gem 'coveralls', require: false
+gem 'json'
