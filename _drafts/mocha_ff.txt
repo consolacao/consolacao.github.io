@@ -1,0 +1,39 @@
+Last login: Tue Jun 10 07:54:23 on ttys000
+You have mail.
+imac:~ hhe$ gem install github_api
+Fetching: multi_xml-0.5.5.gem (100%)
+Successfully installed multi_xml-0.5.5
+Fetching: jwt-1.0.0.gem (100%)
+Successfully installed jwt-1.0.0
+Fetching: oauth2-0.9.4.gem (100%)
+Successfully installed oauth2-0.9.4
+Fetching: descendants_tracker-0.0.4.gem (100%)
+Successfully installed descendants_tracker-0.0.4
+Fetching: github_api-0.11.3.gem (100%)
+Successfully installed github_api-0.11.3
+Parsing documentation for descendants_tracker-0.0.4
+Installing ri documentation for descendants_tracker-0.0.4
+Parsing documentation for github_api-0.11.3
+Installing ri documentation for github_api-0.11.3
+Parsing documentation for jwt-1.0.0
+Installing ri documentation for jwt-1.0.0
+Parsing documentation for multi_xml-0.5.5
+Installing ri documentation for multi_xml-0.5.5
+Parsing documentation for oauth2-0.9.4
+Installing ri documentation for oauth2-0.9.4
+Done installing documentation for descendants_tracker, github_api, jwt, multi_xml, oauth2 after 4 seconds
+5 gems installed
+imac:~ hhe$ npm install github -g
+github@0.1.16 /Users/hhe/.nvm/v0.10.28/lib/node_modules/github
+imac:~ hhe$ npm install mocha -g
+/Users/hhe/.nvm/v0.10.28/bin/mocha -> /Users/hhe/.nvm/v0.10.28/lib/node_modules/mocha/bin/mocha
+/Users/hhe/.nvm/v0.10.28/bin/_mocha -> /Users/hhe/.nvm/v0.10.28/lib/node_modules/mocha/bin/_mocha
+mocha@1.20.1 /Users/hhe/.nvm/v0.10.28/lib/node_modules/mocha
+├── growl@1.7.0
+├── diff@1.0.7
+├── commander@2.0.0
+├── mkdirp@0.3.5
+├── debug@1.0.2 (ms@0.6.2)
+├── jade@0.26.3 (commander@0.6.1, mkdirp@0.3.0)
+└── glob@3.2.3 (inherits@2.0.1, graceful-fs@2.0.3, minimatch@0.2.14)
+imac:~ hhe$
